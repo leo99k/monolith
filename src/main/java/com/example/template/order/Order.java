@@ -18,7 +18,7 @@ import java.util.Optional;
 @Entity
 @Table(name = "order_table")
 public class Order {
-
+   
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
